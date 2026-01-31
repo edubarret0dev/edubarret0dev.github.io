@@ -118,23 +118,7 @@
         </a>
         <h2 class="sidebar-name">Eduardo Barreto</h2>
         <p class="sidebar-bio">Desenvolvedor | Engenheiro | DevOps</p>
-        <ul class="sidebar-info">
-          <li><i class="fa fa-map-marker"></i> Brasil</li>
-          <li><i class="fa fa-envelope"></i> edubarret0dev@gmail.com</li>
-          <li><i class="fa fa-link"></i> <a href="https://github.com/edubarret0dev" target="_blank">github.com/edubarret0dev</a></li>
-        </ul>
-        <ul class="sidebar-social">
-          <li><a href="mailto:edubarret0dev@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></li>
-          <li><a href="https://x.com/eduBarret0" target="_blank" title="X"><i class="fa fa-times"></i></a></li>
-          <li><a href="https://www.instagram.com/engedubarreto/?hl=pt-br" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-          <li><a href="https://www.facebook.com/eduardo.barreto.9277583" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://www.youtube.com/channel/UCKlvq21jNbikjJzZiufVNwQ?view_as=subscriber" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li>
-          <li><a href="https://www.linkedin.com/in/eduardo-barreto-244575b4/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-        </ul>
-        <div class="sidebar-achievements" style="display:flex;gap:1rem;justify-content:center;margin:1rem 0;">
-          <span class="badge badge-blue"><i class="fa fa-trophy"></i> Destaque</span>
-          <span class="badge badge-purple"><i class="fa fa-star"></i> Pro</span>
-        </div>
+        
         <nav class="sidebar-menu">
           <a href="/index.html">Início</a>
           <a href="/pages/projetos.html">Projetos</a>
@@ -142,6 +126,29 @@
           <a href="/pages/servicos.html">Serviços</a>
           <a href="/pages/downloads.html">Downloads</a>
         </nav>
+
+        <div style="margin-top: auto; width: 100%;">
+            <ul class="sidebar-info">
+            <li><i class="fa fa-map-marker"></i> Brasil</li>
+            <li><i class="fa fa-envelope"></i> edubarret0dev@gmail.com</li>
+            <li><i class="fa fa-link"></i> <a href="https://github.com/edubarret0dev" target="_blank">github.com/edubarret0dev</a></li>
+            </ul>
+
+            <div class="sidebar-achievements" style="display:flex;gap:1rem;justify-content:center;margin:1rem 0;">
+            <span class="badge badge-blue"><i class="fa fa-trophy"></i> Destaque</span>
+            <span class="badge badge-purple"><i class="fa fa-star"></i> Pro</span>
+            </div>
+
+            <ul class="sidebar-social">
+            <li><a href="mailto:edubarret0dev@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://x.com/eduBarret0" target="_blank" title="X"><i class="fa fa-times"></i></a></li>
+            <li><a href="https://www.instagram.com/engedubarreto/?hl=pt-br" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/eduardo.barreto.9277583" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCKlvq21jNbikjJzZiufVNwQ?view_as=subscriber" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/eduardo-barreto-244575b4/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+        </div>
+
         <button id="theme-toggle" aria-label="Alternar tema">🌙 Mudar tema</button>
       </aside>
     `;

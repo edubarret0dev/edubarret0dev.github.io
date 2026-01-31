@@ -14,9 +14,9 @@
   --icon: #57606a;
   --icon-hover: #0969da;
   --gradient: linear-gradient(135deg, #0969da 0%, #50fa7b 100%);
-  --shadow-sm: 0 2px 8px rgba(0,0,0,0.04);
-  --shadow-md: 0 4px 16px rgba(0,0,0,0.08);
-  --shadow-lg: 0 8px 24px rgba(0,0,0,0.12);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
 }
 
 body.theme-dark {
@@ -150,7 +150,7 @@ a:hover {
 /* Sidebar Social */
 .sidebar-social {
   display: flex;
-  gap: 0.6rem;
+  gap: 0.4rem;
   margin: 0.5rem 0;
   flex-wrap: wrap;
   justify-content: center;
@@ -197,12 +197,30 @@ a:hover {
   box-shadow: var(--shadow-sm);
 }
 
-.badge-blue { background: #3498db; }
-.badge-purple { background: #bd93f9; }
-.badge-yellow { background: #f1c40f; color: #222; }
-.badge-cyan { background: #00bcd4; }
-.badge-green { background: #2ecc71; }
-.badge-orange { background: #e67e22; }
+.badge-blue {
+  background: #3498db;
+}
+
+.badge-purple {
+  background: #bd93f9;
+}
+
+.badge-yellow {
+  background: #f1c40f;
+  color: #222;
+}
+
+.badge-cyan {
+  background: #00bcd4;
+}
+
+.badge-green {
+  background: #2ecc71;
+}
+
+.badge-orange {
+  background: #e67e22;
+}
 
 /* Sidebar Menu */
 .sidebar-menu {
@@ -471,6 +489,7 @@ a:hover {
     opacity: 0;
     transform: translateY(10px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -483,6 +502,7 @@ a:hover {
 
 /* === Print Styles === */
 @media print {
+
   .sidebar-social,
   .sidebar-achievements,
   #theme-toggle {
