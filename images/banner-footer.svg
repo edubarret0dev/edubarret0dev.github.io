@@ -1,0 +1,11 @@
+<svg width="800" height="120" viewBox="0 0 800 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="120" rx="24" fill="url(#grad2)"/>
+  <defs>
+    <linearGradient id="grad2" x1="0" y1="0" x2="800" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#50fa7b"/>
+      <stop offset="1" stop-color="#bd93f9"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="32" font-family="Roboto, Segoe UI, sans-serif" fill="#fff" font-weight="bold">Obrigado por visitar!</text>
+  <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-size="18" font-family="Roboto, Segoe UI, sans-serif" fill="#fff" opacity="0.7">© 2025 edubarret0</text>
+</svg>

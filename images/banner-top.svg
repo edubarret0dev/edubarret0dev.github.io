@@ -1,0 +1,11 @@
+<svg width="800" height="180" viewBox="0 0 800 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="180" rx="32" fill="url(#grad1)"/>
+  <defs>
+    <linearGradient id="grad1" x1="0" y1="0" x2="800" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0969da"/>
+      <stop offset="1" stop-color="#50fa7b"/>
+    </linearGradient>
+  </defs>
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-size="48" font-family="Roboto, Segoe UI, sans-serif" fill="#fff" font-weight="bold">Eduardo Barreto</text>
+  <text x="50%" y="75%" dominant-baseline="middle" text-anchor="middle" font-size="24" font-family="Roboto, Segoe UI, sans-serif" fill="#fff" opacity="0.8">Desenvolvedor | Engenheiro | DevOps</text>
+</svg>

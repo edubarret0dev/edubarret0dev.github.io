@@ -1,0 +1,46 @@
+Licença MIT
+
+Direitos Autorais (c) 2025 Eduardo Barreto
+
+Por meio desta, é concedida, gratuitamente, a qualquer pessoa que obtenha uma cópia
+deste software e arquivos de documentação associados (o "Projeto"), a permissão para
+lidar com o Projeto sem restrições, incluindo, sem limitações, os direitos de
+usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender
+cópias do Projeto, e permitir que as pessoas a quem o Projeto é
+fornecido o façam, de acordo com as seguintes condições:
+
+O aviso de direitos autorais acima e este aviso de permissão devem ser incluídos
+em todas as cópias ou partes substanciais do Projeto.
+
+PRINCÍPIOS DO CÓDIGO ABERTO:
+1. Código Livre e Aberto: Este projeto é dedicado aos princípios do software livre
+   e código aberto. Acredito na transparência e na colaboração da comunidade.
+
+2. Compartilhamento de Conhecimento: Incentivo ativamente o uso, estudo, modificação
+   e distribuição deste código para promover o aprendizado e a inovação.
+
+3. Cultura Maker: Este projeto abraça a cultura maker e DIY (Faça Você Mesmo),
+   incentivando a experimentação e a criatividade.
+
+4. Comunidade: Valorizo as contribuições da comunidade e acredito no poder do
+   desenvolvimento colaborativo.
+
+TERMOS DE USO:
+1. Você pode usar este projeto para qualquer finalidade, incluindo projetos comerciais.
+2. Você pode modificar o projeto conforme suas necessidades.
+3. Você pode distribuir o projeto original ou modificado.
+4. Você deve incluir uma cópia desta licença em qualquer distribuição do projeto.
+5. Você deve manter os avisos de direitos autorais originais.
+
+ISENÇÃO DE RESPONSABILIDADE:
+O PROJETO É FORNECIDO "COMO ESTÁ", SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU
+IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO A GARANTIAS DE COMERCIALIZAÇÃO,
+ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA, OS
+AUTORES OU DETENTORES DOS DIREITOS AUTORAIS SERÃO RESPONSÁVEIS POR QUAISQUER
+RECLAMAÇÕES, DANOS OU OUTRAS RESPONSABILIDADES, SEJA EM AÇÃO DE CONTRATO,
+DELITO OU DE OUTRA FORMA, DECORRENTES DE, OU EM CONEXÃO COM O PROJETO OU
+O USO OU OUTRAS NEGOCIAÇÕES NO PROJETO.
+
+Contato e Informações:
+- GitHub: https://github.com/edubarret0
+- E-mail: edubarret0dev@gmail.com

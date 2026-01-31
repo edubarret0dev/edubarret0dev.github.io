@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Eduardo Barreto | Perfil Profissional</title>
+	<meta name="description" content="Perfil profissional de Eduardo Barreto, desenvolvedor, engenheiro e DevOps.">
+	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<aside class="sidebar" style="flex:0 0 360px;">
+			<img src="../images/avatar.jpg" alt="Foto de Eduardo Barreto" class="sidebar-avatar">
+			<h2 class="sidebar-name">Eduardo Barreto</h2>
+			<p class="sidebar-bio">Desenvolvedor | Engenheiro | DevOps</p>
+			<ul class="sidebar-info">
+				<li><i class="fa fa-map-marker"></i> Brasil</li>
+				<li><i class="fa fa-envelope"></i> edubarret0dev@gmail.com</li>
+				<li><i class="fa fa-link"></i> <a href="https://github.com/edubarret0" target="_blank">github.com/edubarret0</a></li>
+			</ul>
+			<ul class="sidebar-social">
+				<li><a href="mailto:edubarret0dev@gmail.com" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></li>
+				<li><a href="https://x.com/eduBarret0" target="_blank" title="X"><i class="fa fa-times"></i></a></li>
+				<li><a href="https://www.instagram.com/engedubarreto/?hl=pt-br" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com/eduardo.barreto.9277583" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCKlvq21jNbikjJzZiufVNwQ?view_as=subscriber" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/eduardo-barreto-244575b4/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+			</ul>
+			<div class="sidebar-achievements" style="display:flex;gap:1rem;justify-content:center;margin:1rem 0;">
+				<span class="badge badge-blue"><i class="fa fa-trophy"></i> Destaque</span>
+				<span class="badge badge-purple"><i class="fa fa-star"></i> Pro</span>
+			</div>
+			<nav class="sidebar-menu">
+				<a href="../index.html">Início</a>
+				<a href="projetos.html">Projetos</a>
+				<a href="artigos.html" class="active">Artigos</a>
+				<a href="servicos.html">Serviços</a>
+				<a href="downloads.html">Downloads</a>
+			</nav>
+			<button id="theme-toggle" aria-label="Alternar tema">🌙 Mudar tema</button>
+		</aside>
+		<main class="main-content" aria-live="polite" style="flex:1;max-width:900px;margin-left:2rem;">
+			<div id="perfil-profissional"></div>
+			<div id="artigos"></div>
+		</main>
+	</div>
+	<script>
+		// Alternância de tema claro/escuro
+		const themeToggle = document.getElementById('theme-toggle');
+		function setTheme(theme) {
+			document.body.classList.remove('theme-light', 'theme-dark');
+			document.body.classList.add(theme);
+			document.cookie = `theme=${theme}; Secure; SameSite=Strict`;
+			themeToggle.textContent = theme === 'theme-dark' ? '🌙 Mudar tema' : '☀️ Mudar tema';
+		}
+		themeToggle.addEventListener('click', () => {
+			const current = document.body.classList.contains('theme-dark') ? 'theme-dark' : 'theme-light';
+			setTheme(current === 'theme-dark' ? 'theme-light' : 'theme-dark');
+		});
+		// Carregar preferência do usuário
+		const savedTheme = document.cookie.split('; ').find(row => row.startsWith('theme='));
+		setTheme(savedTheme ? savedTheme.split('=')[1] : 'theme-dark');
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<script>
+		async function loadProfile() {
+			const response = await fetch('../content/artigos.md');
+			const markdown = await response.text();
+			document.getElementById('artigos').innerHTML = `<div class='markdown-content' style='width:100%;margin:0 auto;'>${marked.parse(markdown)}</div>`;
+		}
+		loadProfile();
+	</script>
+</body>
+</html>
