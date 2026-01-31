@@ -1,7 +1,7 @@
 
 - **Localização:** Brasil
 - **Email:** edubarret0dev@gmail.com
-- **GitHub:** [github.com/edubarret0](https://github.com/edubarret0)
+- **GitHub:** [github.com/edubarret0dev](https://github.com/edubarret0dev)
 
 ## Sobre mim
 Sou apaixonado por tecnologia, inovação e automação. Tenho experiência em desenvolvimento de software, engenharia de sistemas e práticas DevOps. Busco sempre aprender e compartilhar conhecimento.

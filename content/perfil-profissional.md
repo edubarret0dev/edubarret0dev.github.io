@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Desenvolvedor | Engenheiro | DevOps](https://img.shields.io/badge/Desenvolvedor_%7C_Engenheiro_%7C_DevOps-0A0A0A?style=for-the-badge&logo=devops&logoColor=white)](https://github.com/edubarret0)
+[![Desenvolvedor | Engenheiro | DevOps](https://img.shields.io/badge/Desenvolvedor_%7C_Engenheiro_%7C_DevOps-0A0A0A?style=for-the-badge&logo=devops&logoColor=white)](https://github.com/edubarret0dev)
 
 <div align="center">
   <img src="/images/banner-top.svg" alt="Banner superior Eduardo Barreto" style="max-width:100%;height:auto;margin-bottom:2rem;">
@@ -37,7 +37,7 @@
 <td width="50%">
 
 ### Links Rápidos
-[![GitHub](https://img.shields.io/badge/GitHub-edubarret0-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/edubarret0)
+[![GitHub](https://img.shields.io/badge/GitHub-edubarret0dev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/edubarret0dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-eduardo--barreto-007ACC?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eduardo-barreto-244575b4/)
 
 </td>
@@ -59,9 +59,9 @@
 <td width="50%">
 
 ### 📚 Recursos de Aprendizado
-- [💻 Projetos Reais](https://github.com/edubarret0) - Projetos práticos de DevOps
-- [📚 Documentação](https://github.com/edubarret0) - Materiais técnicos e guias
-- [📦 Repositórios](https://github.com/edubarret0) - Scripts e código de infraestrutura
+- [💻 Projetos Reais](https://github.com/edubarret0dev) - Projetos práticos de DevOps
+- [📚 Documentação](https://github.com/edubarret0dev) - Materiais técnicos e guias
+- [📦 Repositórios](https://github.com/edubarret0dev) - Scripts e código de infraestrutura
 
 </td>
 <td width="50%">
@@ -85,7 +85,7 @@ Acreditamos que o conhecimento em DevOps deve ser acessível a todos. Nossos val
   <a href="https://linkedin.com/in/eduardo-barreto-244575b4" target="_blank" title="LinkedIn" style="background:#0077B5;color:#fff;padding:0.6em 1.4em;border-radius:8px;font-weight:600;text-decoration:none;font-family:Roboto,Segoe UI,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.07);margin:0 0.3em;display:inline-block;transition:background 0.2s;">
     <i class="fa fa-linkedin" style="margin-right:0.5em;"></i>LINKEDIN
   </a>
-  <a href="https://github.com/edubarret0" target="_blank" title="GitHub" style="background:#181717;color:#fff;padding:0.6em 1.4em;border-radius:8px;font-weight:600;text-decoration:none;font-family:Roboto,Segoe UI,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.07);margin:0 0.3em;display:inline-block;transition:background 0.2s;">
+  <a href="https://github.com/edubarret0dev" target="_blank" title="GitHub" style="background:#181717;color:#fff;padding:0.6em 1.4em;border-radius:8px;font-weight:600;text-decoration:none;font-family:Roboto,Segoe UI,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.07);margin:0 0.3em;display:inline-block;transition:background 0.2s;">
     <i class="fa fa-github" style="margin-right:0.5em;"></i>GITHUB
   </a>
   <a href="mailto:edubarret0dev@gmail.com" title="Email" style="background:#D14836;color:#fff;padding:0.6em 1.4em;border-radius:8px;font-weight:600;text-decoration:none;font-family:Roboto,Segoe UI,sans-serif;box-shadow:0 2px 8px rgba(0,0,0,0.07);margin:0 0.3em;display:inline-block;transition:background 0.2s;">
