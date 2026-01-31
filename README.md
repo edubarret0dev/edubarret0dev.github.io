@@ -42,8 +42,33 @@ templates/   # Templates reutilizáveis (cabeçalho e rodapé)
 
 ## 🌐 Como Acessar
 
-O site está hospedado no GitHub Pages e pode ser acessado pelo seguinte link:
-[Edu Barret - Portfólio Profissional](https://edubarret0.github.io)
+O site está hospedado no GitHub Pages e pode ser acessado aqui:
+[Eduardo Barreto - Portfólio Profissional](https://edubarret0dev.github.io)
+
+## 🔄 Atualizações recentes
+
+- Atualizados os links do GitHub para `github.com/edubarret0dev`.
+- Adicionado `images/favicon.svg` e `site.webmanifest` para suporte a ícones/favicons.
+
+## 🖼️ Favicons e compatibilidade
+
+Incluí um favicon SVG em `images/favicon.svg`. Para compatibilidade com navegadores antigos e iOS, é recomendável gerar também PNGs e um `favicon.ico`. Exemplo com ImageMagick:
+
+```bash
+# Requer ImageMagick
+convert images/favicon.svg -background none -resize 32x32 images/favicon-32.png
+convert images/favicon.svg -background none -resize 16x16 images/favicon-16.png
+convert images/favicon-32.png images/favicon-16.png images/favicon.ico
+```
+
+As tags já adicionadas ao `<head>` dos arquivos HTML:
+
+```html
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/images/favicon.svg" sizes="any">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0A0A0A">
+```
 
 ## 📝 Como Contribuir
 
