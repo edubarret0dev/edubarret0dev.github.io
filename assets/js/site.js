@@ -113,7 +113,9 @@
 
     const sidebarHTML = `
       <aside class="sidebar" style="flex:0 0 360px;">
-        <img src="/images/avatar.webp" alt="Foto de Eduardo Barreto" class="sidebar-avatar" loading="lazy">
+        <a href="/index.html" aria-label="Voltar para o início">
+            <img src="/images/avatar.webp" alt="Foto de Eduardo Barreto" class="sidebar-avatar" loading="lazy">
+        </a>
         <h2 class="sidebar-name">Eduardo Barreto</h2>
         <p class="sidebar-bio">Desenvolvedor | Engenheiro | DevOps</p>
         <ul class="sidebar-info">

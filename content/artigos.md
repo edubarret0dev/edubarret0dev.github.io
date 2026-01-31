@@ -1,7 +1,13 @@
-# Artigos
+# Artigos e Publicações
 
-Leia artigos, tutoriais e dicas sobre tecnologia, desenvolvimento e DevOps:
+Aqui você encontra meus artigos sobre desenvolvimento, engenharia de software e DevOps.
 
-- **Como iniciar com DevOps:** Guia prático para equipes de desenvolvimento.
-- **Boas práticas em APIs REST:** Segurança, versionamento e documentação.
-- **Automação de processos:** Ferramentas e estratégias para empresas.
+## 📝 Artigos Recentes
+
+*Nenhum artigo encontrado no momento.*
+
+## 📚 Categorias
+
+- Desenvolvimento Web
+- DevOps & Cloud
+- Engenharia de Software

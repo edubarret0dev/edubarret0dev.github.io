@@ -1,7 +1,7 @@
-# Downloads
+# Downloads e Recursos
 
-Acesse materiais, apresentações e arquivos para download:
+Material de apoio, templates e ferramentas úteis para download.
 
-- [Currículo atualizado (PDF)](#)
-- [Apresentação DevOps (PPT)](#)
-- [E-book: Boas práticas em desenvolvimento](#)
+## 📦 Arquivos Disponíveis
+
+*Nenhum arquivo disponível para download no momento.*
