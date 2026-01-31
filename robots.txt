@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://edubarret0dev.github.io/sitemap.xml
+
+# Disallow crawling of assets
+Disallow: /assets/sass/
+Disallow: /*.json$
